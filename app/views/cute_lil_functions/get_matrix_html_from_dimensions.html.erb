@@ -1,0 +1,19 @@
+
+<table class="datasheet">
+	<thead>
+		<% x.times.with_index do |ix| %>
+			<th><%=ix+1%></th>
+		<% end %>
+	</thead>
+	
+	<tbody>
+		<% y.times.with_index do |iy| %>
+			<tr id="row_<%= iy%>">
+				<% x.times.with_index do |ix| %>
+					<td><input id="r<%= iy%>c<%= ix%>" type="text" value=""/></td>
+				<% end %>
+			</tr>
+		<% end %>
+	</tbody>
+	
+</table>

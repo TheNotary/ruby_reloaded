@@ -1,0 +1,20 @@
+<head>
+	<script src="/javascripts/sum_squares.js"></script>
+</head>
+
+<h1>Sum Squares</h1>
+
+Type in the demensions of your input matrix:
+<input type="text" id="inputMatrix" value='4x4'/>
+<input type="button" onclick="javascript:SumSquares.generateSquareButton(document.getElementById('inputMatrix').value);" value="Generate">
+
+
+<!-- Put the matricies here via the Generate button -->
+
+<form method="POST" action="newcivilreport2.php">
+	<div id="matrixBay"></div>
+	<input type="button" value="Submit Array" onclick="SumSquares.solveButton()">
+</form>
+
+<%# render 'datasheet' %>
+

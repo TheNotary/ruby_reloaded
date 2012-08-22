@@ -1,0 +1,17 @@
+common: &common
+  adapter: postgresql
+  username: myapp
+  password: myapp
+  host: localhost
+
+development:
+  <<: *common
+  database: rubyreloaded_development
+
+test:
+  <<: *common
+  database: rubyreloaded_test
+
+production:
+  <<: *common
+  database: rubyreloaded_production

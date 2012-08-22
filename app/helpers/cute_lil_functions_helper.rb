@@ -1,0 +1,2 @@
+module CuteLilFunctionsHelper
+end
