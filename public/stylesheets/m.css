@@ -12,6 +12,11 @@ input{
 	background-color:grey;
 }
 
+.credits{
+	position:absolute;
+	bottom:0;
+}
+
 .nav_list *{
 	margin:10px;
 	list-style-type:none;

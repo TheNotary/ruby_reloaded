@@ -11,6 +11,8 @@
 	<div class="content">
 		<%= yield %>
 	</div>
-
+	<% unless @credits.nil? or @credits.empty? %>
+	<div class='credits'>Gem/code provided by: <%= @credits %></div>
+	<%end%>
 </body>
 </html>
