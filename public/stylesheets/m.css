@@ -5,7 +5,7 @@
 
 .nav_list *{
 	margin:10px;
-	text-decoration:none;
+	list-style-type:none;
 }
 
 
