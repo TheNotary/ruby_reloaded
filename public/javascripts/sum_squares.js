@@ -9,6 +9,8 @@ SumSquares.generateSquareButton = function(dimensionString){
 	
 	SumSquares.buildSquare(dimensions);
 	SumSquares.debugPopulateMatrix([[1,2,3,4],[5,6,7,8],[9,10,13,14],[15,16,17,18]]);
+	
+	$('#gridControls').slideDown();
 }
 
 // takes in "4x4" and outputs [4, 4]
@@ -71,7 +73,6 @@ SumSquares.solveButton = function(){
 	}
 	
 	SumSquares.colorMatrixBasedOnMinMax(s['min_slots'], s['max_slots']);
-	
 }
 
 SumSquares.initMatrixView = function(){

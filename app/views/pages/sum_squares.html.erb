@@ -4,17 +4,20 @@
 
 <h1>Sum Squares</h1>
 
-Type in the demensions of your input matrix:
+Type in the demensions of your input matrix:<br>
 <input type="text" id="inputMatrix" value='4x4'/>
 <input type="button" onclick="javascript:SumSquares.generateSquareButton(document.getElementById('inputMatrix').value);" value="Generate">
 
 
 <!-- Put the matricies here via the Generate button -->
+<div id="matrixBay"></div>
+<div id='gridControls'>
+	<input id='solveSumSquares' type="button" value="Solve Summed Squares" onclick="SumSquares.solveButton()">
+	<div id='legend'>
+		<p><span class='purple'>Puple:</span> Min</p>
+		<p><span class='yellow'>Yellow:</span> Max</p>
+		<p><span class='grey'>Grey:</span> Overlap</p>
+	</div>
+</div>
 
-<form method="POST" action="newcivilreport2.php">
-	<div id="matrixBay"></div>
-	<input type="button" value="Submit Array" onclick="SumSquares.solveButton()">
-</form>
-
-<%# render 'datasheet' %>
 
