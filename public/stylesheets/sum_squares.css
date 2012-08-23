@@ -1,0 +1,45 @@
+.minimum{
+	background-color:purple;
+	color:white;
+}
+
+.maximum{
+	background-color:yellow;
+}
+
+.minimum.maximum{
+	background-color:#444;
+}
+
+#matrixBay{
+	background-color:black;
+}
+
+#gridControls{
+	display:none;
+	background-color:black;
+	width:250px;
+}
+
+.purple{
+	color:purple;
+	background-color:black;
+}
+
+.yellow{
+	color:yellow;
+	background-color:black;
+}
+
+.grey{
+	color:#444;
+	background-color:black;
+}
+
+#solveSumSquares{
+	float:left;
+}
+
+#legend{
+	float:left;
+}
